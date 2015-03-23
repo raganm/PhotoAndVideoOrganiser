@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoAndVideoOrganiser", "PhotoAndVideoOrganiser\PhotoAndVideoOrganiser.csproj", "{3E70C2D8-2D0D-40F1-B6FE-2C59D722E1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExifMetadata", "ExifMetadata\ExifMetadata.csproj", "{ABD4E13C-1A47-4082-8D77-8F1E9312B1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{EB30AD78-0A8B-4739-80B6-59B1192B6094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E70C2D8-2D0D-40F1-B6FE-2C59D722E1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E70C2D8-2D0D-40F1-B6FE-2C59D722E1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E70C2D8-2D0D-40F1-B6FE-2C59D722E1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E70C2D8-2D0D-40F1-B6FE-2C59D722E1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD4E13C-1A47-4082-8D77-8F1E9312B1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD4E13C-1A47-4082-8D77-8F1E9312B1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD4E13C-1A47-4082-8D77-8F1E9312B1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD4E13C-1A47-4082-8D77-8F1E9312B1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB30AD78-0A8B-4739-80B6-59B1192B6094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB30AD78-0A8B-4739-80B6-59B1192B6094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB30AD78-0A8B-4739-80B6-59B1192B6094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB30AD78-0A8B-4739-80B6-59B1192B6094}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

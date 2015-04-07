@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3E70C2D8-2D0D-40F1-B6FE-2C59D722E1E9}</ProjectGuid>
+    <ProjectGuid>{74A7E08B-6F69-4338-91DA-2551037B5875}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PhotoAndVideoOrganiser</RootNamespace>
-    <AssemblyName>PhotoAndVideoOrganiser</AssemblyName>
+    <RootNamespace>PhotoAndVideoOrganiserTests</RootNamespace>
+    <AssemblyName>PhotoAndVideoOrganiserTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,33 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationCore" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\..\..\SoftwareCraftsmanship\SoftwareCraftsmanship\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsBase" />
+    <Reference Include="SystemWrapper">
+      <HintPath>SystemWrapper\SystemWrapper.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ComparisonResult.cs" />
-    <Compile Include="Interfaces\IOrganise.cs" />
-    <Compile Include="IPhoto.cs" />
-    <Compile Include="Organiser.cs" />
-    <Compile Include="Photo.cs" />
-    <Compile Include="PhotoOrganiser.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VideoOrganiser.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ExifMetadata\ExifMetadata.csproj">
-      <Project>{ABD4E13C-1A47-4082-8D77-8F1E9312B1FA}</Project>
-      <Name>ExifMetadata</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

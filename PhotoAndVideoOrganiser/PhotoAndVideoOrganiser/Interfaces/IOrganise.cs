@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace PhotoAndVideoOrganiser
+namespace PhotoAndVideoOrganiser.Interfaces
 {
     public interface IOrganise
     {

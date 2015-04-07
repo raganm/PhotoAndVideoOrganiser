@@ -11,14 +11,8 @@ namespace PhotoAndVideoOrganiser
         public string CurrentFileName { get; set; }
         public string CorrectFileName { get; set; }
 
-        public Boolean IsFileNameCorrect
-        {
-            get
-            {
-                return (CurrentFileName.ToLower() == CorrectFileName.ToLower()); 
-            }
-        }
-
+        public Boolean IsFileNameCorrect { get; set; }
+        public Boolean IsDirectoryCorrect { get; set; }
         public Boolean IsDuplicate { get; set; }
     }
 }
